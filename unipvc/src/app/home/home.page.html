@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      IPVC
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">IPVC</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    {{ nomeInstituto }}
+  </div>
+
+</ion-content>
+
+<ion-button routerLink="/lista">
+  Lista de qualquer coisa
+</ion-button>
+
+<ion-button (click)="verDetalhe()">
+  Ver detalhe de qualquer coisa
+</ion-button>
