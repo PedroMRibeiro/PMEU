@@ -1,0 +1,23 @@
+.centro-tela {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  height: 100%;            
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.grupo-botoes {
+  width: 100%;
+  max-width: 300px; 
+}
+
+ion-button {
+  margin-bottom: 20px;
+}
